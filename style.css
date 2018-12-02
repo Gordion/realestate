@@ -1,0 +1,71 @@
+.header {
+  padding: 0 15px;
+  background: #ADADAD;
+  color: #fff;
+}
+
+.footer {
+  background: #ADADAD;
+  color: #fff;
+  margin: 15px 0;
+}
+
+.contact-form form {
+  padding: 15px;
+  background: #17a2b8;
+}
+ .tp1 {
+   color: #ad165a;
+ }
+
+ .tp2 {
+   color: red;
+ }
+
+.slogan {
+  text-align: center;
+  color: #34495e;
+}
+
+.best-com-title {
+  text-align: center;
+  color: #34495e;
+}
+
+.heading {
+  margin: 36px 0 14px;
+}
+
+.main-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.logo1 {
+  color: #17a2b8;
+}
+
+.background {
+  background: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.top-photo {
+  width: 100%;
+  height: auto;
+}
+
+.copy {
+  text-align: right;
+}
+
+.list-group {
+  list-style: disc;
+    margin: 25px;
+}
+.list-group-item {
+  display: list-item;
+}
+
+#slider {
+	margin: 0;
+	padding: 0;
+}

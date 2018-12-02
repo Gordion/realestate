@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width; initial-scale=1;">
+    <title>RealEstate</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+  </head>
+  <body class="background">
+
+    <div class="container">
+
+      <div class="header row justify-content-between align-items-center no-gutters">
+        <div class="logo col-4">
+          <h1><span class="logo1">PALACE</span> <span class="logo2">CLUB</span></h1>
+        </div>
+        <div class="contacts col-2 text-right">
+          <h4>Our contacts:<br>
+          666-14-88</h4>
+        </div>
+      </div>
+
+
+      <div class="main-container row">
+        <div class="photo-container col-8">
+			<!--<img class="top-photo" src="main-photo.jpg" alt="Card image cap">-->
+			<ul id="slider">
+				<li><img src="build1.jpg" alt="" /></li>
+				<li><img src="build2.jpg" alt="" /></li>
+				<li><img src="build3.jpg" alt="" /></li>
+			</ul>
+			<ul class="list-group">
+			  <li class="list-group-item">Cras justo odio</li>
+			  <li class="list-group-item">Dapibus ac facilisis in</li>
+			  <li class="list-group-item">Morbi leo risus</li>
+			  <li class="list-group-item">Porta ac consectetur ac</li>
+			  <li class="list-group-item">Vestibulum at eros</li>
+			</ul>
+        </div>
+        <div class="contact-form col-4">
+
+          <form>
+            <div class="form-group ">
+                <label>Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+
+            <div class="form-group">
+              <label>Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text" class="form-control" id="phone" placeholder="Enter phone">
+            </div>
+
+            <div class="form-group">
+              <label>Location</label>
+              <input type="text" class="form-control" id="location" placeholder="Choose location">
+            </div>
+
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="search">Пошук</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-background">Зміна фону</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-border">Зміна стилю кордону</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-list">Зміна стилю списка</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-margin">Зміна полів</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-text">Зміна стилю тексту</button>
+			<button type="button" class="btn btn-secondary btn-sm btn-block" id="lab-default">Повернення стандартних значень</button>
+         </form>
+      </div>
+
+
+    </div>
+
+      <div class="row build-types">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Палаци</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Замки</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Фортеці</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <div class="row slogan heading">
+        <div class="col"><h3>Знайдіть свій ідеальний будинок</h3></div>
+      </div>
+
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="build1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Хімедзі</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur.<br>
+              100.000.000$</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="build2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Нойшванштайн</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur.<br>
+              120.000.000$</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="build3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Шьонбрун</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur.<br>
+              150.000.000$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row best-com-title heading">
+        <div class="col"><h4>Найкращі коментарі</h4></div>
+      </div>
+
+
+      <div class="row justify-content-between align-items-center">
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="port1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Ludwig II von Bayern</h5>
+                <p class="card-text">"...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world."
+- King Ludwig II of Bavaria</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="port2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Franz Joseph von Habsburg</h5>
+                <p class="card-text">"Schonbrunn wasn't just a palace, it was a tone that either one carries forever in one's soul or one does not. It was the most beautiful thing in my life. The allés in Schönbrunn. The blue light in the dormitory at the academy, the great white stairwell with the baroque statue."
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer row justify-content-between align-items-center">
+        <div class="footer col">
+          <p class="copy">Copyright by palaceclub</p>
+        </div>
+      </div>
+    </div>
+	
+	<script>
+	var search = document.getElementById("search");
+	search.addEventListener("click", showUserData);
+	
+	function showUserData() {
+		var userData = 'Name - ' + getValue('name') + '\nE-mail -' + getValue('email') + '\nPhone -' + getValue('phone') + '\nLocation -' + getValue('location');
+		alert(userData);
+	}
+	
+	function getValue(id) {
+		var el = document.getElementById(id);
+		if (el.value) {
+			return el.value;
+		}
+		else  {
+			return 'Відсутнє значення';		
+		}
+	}
+
+
+
+	document.getElementById("lab-background").addEventListener("click", function(){
+		document.querySelector('body').style.background = '#000000';
+	});
+	
+	document.getElementById("lab-border").addEventListener("click", function(){
+		document.querySelector('.top-photo').style.border = '3px solid #000';
+	});
+	
+	document.getElementById("lab-list").addEventListener("click", function(){
+		document.querySelector('.list-group').style.listStyle = 'circle';
+	});
+	
+	document.getElementById("lab-margin").addEventListener("click", function(){
+		document.querySelector('.header').style.margin = '15px';
+		document.querySelector('.header').style.padding = '5px';
+	});
+	
+	document.getElementById("lab-text").addEventListener("click", function(){
+		document.querySelectorAll('.card-title').forEach(function(textEl){
+			textEl.style.color = 'red';
+			textEl.style.fontSize = '15px'; 
+			textEl.style.fontFamily = 'Times New Roman'; 
+		});
+	});
+
+
+	document.getElementById("lab-default").addEventListener("click", function(){
+		document.querySelector('body').style.background = 'linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)';
+		document.querySelector('.top-photo').style.border = 'none';
+		document.querySelectorAll('.card-title').forEach(function(textEl){
+			textEl.style.color = '#000';
+			textEl.style.fontSize = '1.25rem'; 
+			textEl.style.fontFamily = 'inherit';
+		});
+		document.querySelector('.header').style.margin = '0px';
+		document.querySelector('.header').style.padding = '15px';
+		document.querySelector('.list-group').style.listStyle = 'disc';
+	});
+	
+    $(document).ready(function() {
+        $("#slider").slick({
+			arrows: false,
+			autoplay: true,
+			dots: true
+		});
+    });
+	
+	</script>
+  </body>
+</html>
